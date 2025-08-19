@@ -1,0 +1,12 @@
+# VS Code
+.vscode/
+
+# Linux
+*~
+.DS_Store
+
+# Logs
+*.log
+
+# User secrets
+secrets.json
