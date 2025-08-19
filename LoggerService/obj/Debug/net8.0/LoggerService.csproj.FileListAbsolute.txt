@@ -1,0 +1,11 @@
+/home/khulysojohn/Development/CompanyEmployees/LoggerService/bin/Debug/net8.0/LoggerService.deps.json
+/home/khulysojohn/Development/CompanyEmployees/LoggerService/bin/Debug/net8.0/LoggerService.dll
+/home/khulysojohn/Development/CompanyEmployees/LoggerService/bin/Debug/net8.0/LoggerService.pdb
+/home/khulysojohn/Development/CompanyEmployees/LoggerService/obj/Debug/net8.0/LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+/home/khulysojohn/Development/CompanyEmployees/LoggerService/obj/Debug/net8.0/LoggerService.AssemblyInfoInputs.cache
+/home/khulysojohn/Development/CompanyEmployees/LoggerService/obj/Debug/net8.0/LoggerService.AssemblyInfo.cs
+/home/khulysojohn/Development/CompanyEmployees/LoggerService/obj/Debug/net8.0/LoggerService.csproj.CoreCompileInputs.cache
+/home/khulysojohn/Development/CompanyEmployees/LoggerService/obj/Debug/net8.0/LoggerService.dll
+/home/khulysojohn/Development/CompanyEmployees/LoggerService/obj/Debug/net8.0/refint/LoggerService.dll
+/home/khulysojohn/Development/CompanyEmployees/LoggerService/obj/Debug/net8.0/LoggerService.pdb
+/home/khulysojohn/Development/CompanyEmployees/LoggerService/obj/Debug/net8.0/ref/LoggerService.dll
