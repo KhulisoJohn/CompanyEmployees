@@ -9,3 +9,8 @@
 /home/khulysojohn/Development/CompanyEmployees/LoggerService/obj/Debug/net8.0/refint/LoggerService.dll
 /home/khulysojohn/Development/CompanyEmployees/LoggerService/obj/Debug/net8.0/LoggerService.pdb
 /home/khulysojohn/Development/CompanyEmployees/LoggerService/obj/Debug/net8.0/ref/LoggerService.dll
+/home/khulysojohn/Development/CompanyEmployees/LoggerService/bin/Debug/net8.0/Contracts.dll
+/home/khulysojohn/Development/CompanyEmployees/LoggerService/bin/Debug/net8.0/Contracts.pdb
+/home/khulysojohn/Development/CompanyEmployees/LoggerService/obj/Debug/net8.0/LoggerService.csproj.AssemblyReference.cache
+/home/khulysojohn/Development/CompanyEmployees/LoggerService/obj/Debug/net8.0/LoggerService.sourcelink.json
+/home/khulysojohn/Development/CompanyEmployees/LoggerService/obj/Debug/net8.0/LoggerSe.E7AEA5A8.Up2Date

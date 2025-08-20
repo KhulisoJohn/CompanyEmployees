@@ -36,3 +36,5 @@
 /home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/obj/Debug/net8.0/CompanyEmployee.api.pdb
 /home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/obj/Debug/net8.0/CompanyEmployee.api.genruntimeconfig.cache
 /home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/obj/Debug/net8.0/ref/CompanyEmployee.api.dll
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/bin/Debug/net8.0/NLog.dll
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/bin/Debug/net8.0/NLog.Extensions.Logging.dll

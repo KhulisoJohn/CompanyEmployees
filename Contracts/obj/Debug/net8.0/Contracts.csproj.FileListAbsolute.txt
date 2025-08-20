@@ -9,3 +9,4 @@
 /home/khulysojohn/Development/CompanyEmployees/Contracts/obj/Debug/net8.0/refint/Contracts.dll
 /home/khulysojohn/Development/CompanyEmployees/Contracts/obj/Debug/net8.0/Contracts.pdb
 /home/khulysojohn/Development/CompanyEmployees/Contracts/obj/Debug/net8.0/ref/Contracts.dll
+/home/khulysojohn/Development/CompanyEmployees/Contracts/obj/Debug/net8.0/Contracts.sourcelink.json

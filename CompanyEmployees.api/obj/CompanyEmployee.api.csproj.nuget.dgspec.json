@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[8.0.18, )"
             },
+            "NLog": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -161,7 +165,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/khulysojohn/Development/CompanyEmployees/Contracts/Contracts.csproj": {
+                "projectPath": "/home/khulysojohn/Development/CompanyEmployees/Contracts/Contracts.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -178,6 +186,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
