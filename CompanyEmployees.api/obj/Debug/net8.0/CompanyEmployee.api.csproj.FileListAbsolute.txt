@@ -38,3 +38,7 @@
 /home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/obj/Debug/net8.0/ref/CompanyEmployee.api.dll
 /home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/bin/Debug/net8.0/NLog.dll
 /home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/bin/Debug/net8.0/NLog.Extensions.Logging.dll
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/bin/Debug/net8.0/CompanyEmployee.api.staticwebassets.endpoints.json
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/obj/Debug/net8.0/staticwebassets/msbuild.CompanyEmployee.api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/bin/Debug/net8.0/nlog.config

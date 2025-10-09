@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "3n5ZT/ZcvK4=",
+  "dgSpecHash": "ao42c/NPVzs=",
   "success": true,
   "projectFilePath": "/home/khulysojohn/Development/CompanyEmployees/Contracts/Contracts.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/khulysojohn/.nuget/packages/microsoft.netcore.app.ref/8.0.15/microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/khulysojohn/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512"
+  ],
   "logs": []
 }
