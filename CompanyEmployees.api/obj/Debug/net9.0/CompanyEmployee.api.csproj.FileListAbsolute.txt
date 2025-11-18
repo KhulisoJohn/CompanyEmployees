@@ -1,0 +1,8 @@
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/obj/Debug/net9.0/CompanyEmployee.api.csproj.AssemblyReference.cache
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/obj/Debug/net9.0/CompanyEmployee.api.GeneratedMSBuildEditorConfig.editorconfig
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/obj/Debug/net9.0/CompanyEmployee.api.AssemblyInfoInputs.cache
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/obj/Debug/net9.0/CompanyEmployee.api.AssemblyInfo.cs
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/obj/Debug/net9.0/CompanyEmployee.api.csproj.CoreCompileInputs.cache
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/obj/Debug/net9.0/CompanyEmployee.api.MvcApplicationPartsAssemblyInfo.cs
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/obj/Debug/net9.0/CompanyEmployee.api.MvcApplicationPartsAssemblyInfo.cache
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.api/obj/Debug/net9.0/CompanyEmployee.api.sourcelink.json

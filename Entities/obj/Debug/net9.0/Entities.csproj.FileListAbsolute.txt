@@ -1,0 +1,12 @@
+/home/khulysojohn/Development/CompanyEmployees/Entities/bin/Debug/net9.0/Entities.deps.json
+/home/khulysojohn/Development/CompanyEmployees/Entities/bin/Debug/net9.0/Entities.dll
+/home/khulysojohn/Development/CompanyEmployees/Entities/bin/Debug/net9.0/Entities.pdb
+/home/khulysojohn/Development/CompanyEmployees/Entities/obj/Debug/net9.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/home/khulysojohn/Development/CompanyEmployees/Entities/obj/Debug/net9.0/Entities.AssemblyInfoInputs.cache
+/home/khulysojohn/Development/CompanyEmployees/Entities/obj/Debug/net9.0/Entities.AssemblyInfo.cs
+/home/khulysojohn/Development/CompanyEmployees/Entities/obj/Debug/net9.0/Entities.csproj.CoreCompileInputs.cache
+/home/khulysojohn/Development/CompanyEmployees/Entities/obj/Debug/net9.0/Entities.sourcelink.json
+/home/khulysojohn/Development/CompanyEmployees/Entities/obj/Debug/net9.0/Entities.dll
+/home/khulysojohn/Development/CompanyEmployees/Entities/obj/Debug/net9.0/refint/Entities.dll
+/home/khulysojohn/Development/CompanyEmployees/Entities/obj/Debug/net9.0/Entities.pdb
+/home/khulysojohn/Development/CompanyEmployees/Entities/obj/Debug/net9.0/ref/Entities.dll
