@@ -47,11 +47,24 @@
           }
         }
       },
-      "Microsoft.AspNetCore.OpenApi/10.0.0": {
+      "Microsoft.AspNetCore.OpenApi/8.0.18": {
         "type": "package",
-        "build": {
-          "build/Microsoft.AspNetCore.OpenApi.targets": {}
-        }
+        "dependencies": {
+          "Microsoft.OpenApi": "1.4.3"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
@@ -1202,21 +1215,18 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
-    "Microsoft.AspNetCore.OpenApi/10.0.0": {
-      "sha512": "0aqIF1t+sA2T62LIeMtXGSiaV7keGQaJnvwwmu+htQdjCaKYARfXAeqp4nHH9y2etpilyZ/tnQzZg4Ilmo/c4Q==",
+    "Microsoft.AspNetCore.OpenApi/8.0.18": {
+      "sha512": "iHqDbyK66dTL2M32nQ/kqYXGbQFj5bUr0eXJskJMsuPCF4CfJbJCuSnwWKq0m2TrMGuNV01RJLU61S2uvS04+g==",
       "type": "package",
-      "path": "microsoft.aspnetcore.openapi/10.0.0",
+      "path": "microsoft.aspnetcore.openapi/8.0.18",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
-        "analyzers/dotnet/cs/Microsoft.AspNetCore.OpenApi.SourceGenerators.dll",
-        "build/Microsoft.AspNetCore.OpenApi.targets",
-        "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll",
-        "lib/net10.0/Microsoft.AspNetCore.OpenApi.xml",
-        "microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",
+        "lib/net8.0/Microsoft.AspNetCore.OpenApi.dll",
+        "lib/net8.0/Microsoft.AspNetCore.OpenApi.xml",
+        "microsoft.aspnetcore.openapi.8.0.18.nupkg.sha512",
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
@@ -3348,7 +3358,7 @@
       "Contracts >= 1.0.0",
       "Entities >= 1.0.0",
       "LoggerService >= 1.0.0",
-      "Microsoft.AspNetCore.OpenApi >= 9.0.18",
+      "Microsoft.AspNetCore.OpenApi >= 8.0.18",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.11",
       "NLog >= 6.0.3",
       "Repository >= 1.0.0",
@@ -3413,7 +3423,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
-            "version": "[9.0.18, )"
+            "version": "[8.0.18, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
@@ -3450,17 +3460,5 @@
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "CompanyEmployee.api depends on Microsoft.AspNetCore.OpenApi (>= 9.0.18) but Microsoft.AspNetCore.OpenApi 9.0.18 was not found. Microsoft.AspNetCore.OpenApi 10.0.0 was resolved instead.",
-      "libraryId": "Microsoft.AspNetCore.OpenApi",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }
