@@ -2,7 +2,7 @@ using Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add Services to the container
+
 builder.Services.ConfigureCors();
 builder.Services.ConfigureIISIntergration();
 builder.Services.ConfigureLoggerService();
@@ -10,7 +10,7 @@ builder.Services.AddControllers();
 
 var app = builder.Build();
 
-// Configure the HTTP requesr pipeline
+
 if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 else

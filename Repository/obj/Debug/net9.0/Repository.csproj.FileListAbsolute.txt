@@ -1,4 +1,5 @@
 /home/khulysojohn/Development/CompanyEmployees/Repository/bin/Debug/net9.0/Repository.deps.json
+/home/khulysojohn/Development/CompanyEmployees/Repository/bin/Debug/net9.0/Repository.runtimeconfig.json
 /home/khulysojohn/Development/CompanyEmployees/Repository/bin/Debug/net9.0/Repository.dll
 /home/khulysojohn/Development/CompanyEmployees/Repository/bin/Debug/net9.0/Repository.pdb
 /home/khulysojohn/Development/CompanyEmployees/Repository/bin/Debug/net9.0/Entities.dll
@@ -13,4 +14,5 @@
 /home/khulysojohn/Development/CompanyEmployees/Repository/obj/Debug/net9.0/Repository.dll
 /home/khulysojohn/Development/CompanyEmployees/Repository/obj/Debug/net9.0/refint/Repository.dll
 /home/khulysojohn/Development/CompanyEmployees/Repository/obj/Debug/net9.0/Repository.pdb
+/home/khulysojohn/Development/CompanyEmployees/Repository/obj/Debug/net9.0/Repository.genruntimeconfig.cache
 /home/khulysojohn/Development/CompanyEmployees/Repository/obj/Debug/net9.0/ref/Repository.dll
