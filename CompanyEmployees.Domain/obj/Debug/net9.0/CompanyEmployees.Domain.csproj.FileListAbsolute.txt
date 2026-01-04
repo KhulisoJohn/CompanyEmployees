@@ -1,0 +1,12 @@
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Domain/bin/Debug/net9.0/CompanyEmployees.Domain.deps.json
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Domain/bin/Debug/net9.0/CompanyEmployees.Domain.dll
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Domain/bin/Debug/net9.0/CompanyEmployees.Domain.pdb
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Domain/obj/Debug/net9.0/CompanyEmployees.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Domain/obj/Debug/net9.0/CompanyEmployees.Domain.AssemblyInfoInputs.cache
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Domain/obj/Debug/net9.0/CompanyEmployees.Domain.AssemblyInfo.cs
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Domain/obj/Debug/net9.0/CompanyEmployees.Domain.csproj.CoreCompileInputs.cache
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Domain/obj/Debug/net9.0/CompanyEmployees.Domain.sourcelink.json
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Domain/obj/Debug/net9.0/CompanyEmployees.Domain.dll
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Domain/obj/Debug/net9.0/refint/CompanyEmployees.Domain.dll
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Domain/obj/Debug/net9.0/CompanyEmployees.Domain.pdb
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Domain/obj/Debug/net9.0/ref/CompanyEmployees.Domain.dll

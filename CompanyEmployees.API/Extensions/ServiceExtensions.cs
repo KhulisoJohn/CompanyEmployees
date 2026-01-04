@@ -1,4 +1,6 @@
 using System;
+using CompanyEmployees.Domain.Interfaces;
+using CompanyEmployees.Infrastructure.Services;
 
 namespace CompanyEmployees.API.Extensions;
 
@@ -19,4 +21,7 @@ public static class ServiceExtensions
         {
             
         });
+
+    public static void ConfigureLoggerService(this IServiceCollection services) =>
+        services.AddSingleton<ILoggerManager, LoggerManager>();
 }
