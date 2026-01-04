@@ -1,9 +1,10 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using CompanyEmployees.Domain.Entities.Models;
+using CompanyEmployees.Domain.Entities;
 
-namespace CompanyEmployees.Domain.Entities.Models;
+
+namespace CompanyEmployees.Domain.Entities;
 
 public class Company
 {

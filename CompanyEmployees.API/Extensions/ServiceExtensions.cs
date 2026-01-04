@@ -1,6 +1,8 @@
 using System;
 using CompanyEmployees.Domain.Interfaces;
-using CompanyEmployees.Infrastructure.Services;
+using CompanyEmployees.Infrastructure.Logging;
+using CompanyEmployees.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 namespace CompanyEmployees.API.Extensions;
 
@@ -22,6 +24,15 @@ public static class ServiceExtensions
             
         });
 
-    public static void ConfigureLoggerService(this IServiceCollection services) =>
-        services.AddSingleton<ILoggerManager, LoggerManager>();
+    
+     public static IServiceCollection AddInfrastructure(this IServiceCollection services, string connectionString)
+        {
+            // Configure EF Core PostgreSQL
+            services.AddDbContext<CompanyEmployeeDbContext>(options =>
+                options.UseNpgsql(connectionString));
+
+            services.AddSingleton<ILoggerManager, LoggerManager>();
+
+            return services;
+        }
 }

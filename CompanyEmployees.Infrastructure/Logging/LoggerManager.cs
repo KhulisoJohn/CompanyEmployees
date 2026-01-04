@@ -1,7 +1,7 @@
 using CompanyEmployees.Domain.Interfaces;
 using NLog;
 
-namespace CompanyEmployees.Infrastructure.Services;
+namespace CompanyEmployees.Infrastructure.Logging;
 
 public class LoggerManager : ILoggerManager
 {
