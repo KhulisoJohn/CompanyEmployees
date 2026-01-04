@@ -1,0 +1,16 @@
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/bin/Debug/net9.0/CompanyEmployees.Infrastructure.deps.json
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/bin/Debug/net9.0/CompanyEmployees.Infrastructure.dll
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/bin/Debug/net9.0/CompanyEmployees.Infrastructure.pdb
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/bin/Debug/net9.0/CompanyEmployees.Domain.dll
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/bin/Debug/net9.0/CompanyEmployees.Domain.pdb
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/obj/Debug/net9.0/CompanyEmployees.Infrastructure.csproj.AssemblyReference.cache
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/obj/Debug/net9.0/CompanyEmployees.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/obj/Debug/net9.0/CompanyEmployees.Infrastructure.AssemblyInfoInputs.cache
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/obj/Debug/net9.0/CompanyEmployees.Infrastructure.AssemblyInfo.cs
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/obj/Debug/net9.0/CompanyEmployees.Infrastructure.csproj.CoreCompileInputs.cache
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/obj/Debug/net9.0/CompanyEmployees.Infrastructure.sourcelink.json
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/obj/Debug/net9.0/CompanyE.47505318.Up2Date
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/obj/Debug/net9.0/CompanyEmployees.Infrastructure.dll
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/obj/Debug/net9.0/refint/CompanyEmployees.Infrastructure.dll
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/obj/Debug/net9.0/CompanyEmployees.Infrastructure.pdb
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/obj/Debug/net9.0/ref/CompanyEmployees.Infrastructure.dll
