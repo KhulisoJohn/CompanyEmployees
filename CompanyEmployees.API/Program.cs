@@ -4,6 +4,9 @@ using NLog;
 
 var builder = WebApplication.CreateBuilder(args);
 
+Console.WriteLine($"Environment: {builder.Environment.EnvironmentName}");
+Console.WriteLine($"Connection String: {builder.Configuration.GetConnectionString("DefaultConnection")}");
+
 builder.Services.ConfigureCors();
 builder.Services.ConfigureIISIntegration();
 //builder.Services.ConfigureLoggerService();
