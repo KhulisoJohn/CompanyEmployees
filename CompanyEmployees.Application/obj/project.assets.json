@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "CompanyEmployees.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/CompanyEmployees.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CompanyEmployees.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CompanyEmployees.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CompanyEmployees.Domain/CompanyEmployees.Domain.csproj",
+      "msbuildProject": "../CompanyEmployees.Domain/CompanyEmployees.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "CompanyEmployees.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/khulysojohn/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Domain/CompanyEmployees.Domain.csproj": {
+              "projectPath": "/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Domain/CompanyEmployees.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

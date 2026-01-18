@@ -976,6 +976,19 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "CompanyEmployees.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "CompanyEmployees.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CompanyEmployees.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CompanyEmployees.Application.dll": {}
+        }
+      },
       "CompanyEmployees.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -2942,6 +2955,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "CompanyEmployees.Application/1.0.0": {
+      "type": "project",
+      "path": "../CompanyEmployees.Application/CompanyEmployees.Application.csproj",
+      "msbuildProject": "../CompanyEmployees.Application/CompanyEmployees.Application.csproj"
+    },
     "CompanyEmployees.Domain/1.0.0": {
       "type": "project",
       "path": "../CompanyEmployees.Domain/CompanyEmployees.Domain.csproj",
@@ -2955,6 +2973,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "CompanyEmployees.Application >= 1.0.0",
       "CompanyEmployees.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.0",
@@ -2986,6 +3005,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/CompanyEmployees.Application.csproj": {
+              "projectPath": "/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/CompanyEmployees.Application.csproj"
+            },
             "/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/CompanyEmployees.Infrastructure.csproj": {
               "projectPath": "/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/CompanyEmployees.Infrastructure.csproj"
             }
