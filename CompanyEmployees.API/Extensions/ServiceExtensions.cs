@@ -1,8 +1,11 @@
 using System;
+using System.Net;
 using CompanyEmployees.Domain.Interfaces;
 using CompanyEmployees.Infrastructure.Logging;
 using CompanyEmployees.Infrastructure.Persistence;
 using CompanyEmployees.Infrastructure.Repository;
+using CompanyEmployees.Application.Interfaces;
+using CompanyEmployees.Application.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace CompanyEmployees.API.Extensions;
@@ -40,5 +43,10 @@ public static class ServiceExtensions
     public static void ConfigureRepositoryManager(this IServiceCollection services)
     {
         services.AddScoped<IRepositoryManager, RepositoryManager>();
+    }
+
+    public static void ConfigureServiceManager(this IServiceCollection services)
+    {
+        services.AddScoped<IServiceManager, ServiceManager>();
     }
 }
