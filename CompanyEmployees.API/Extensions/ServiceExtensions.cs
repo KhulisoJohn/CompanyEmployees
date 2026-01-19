@@ -34,7 +34,7 @@ public static class ServiceExtensions
             // Configure EF Core PostgreSQL
             services.AddDbContext<CompanyEmployeeDbContext>(options =>
                 options.UseNpgsql(connectionString));
-
+            //add logger service 
             services.AddSingleton<ILoggerManager, LoggerManager>();
 
             return services;
