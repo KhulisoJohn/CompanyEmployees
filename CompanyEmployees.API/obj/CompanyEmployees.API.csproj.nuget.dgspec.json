@@ -233,6 +233,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/CompanyEmployees.Application.csproj": {
+                "projectPath": "/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/CompanyEmployees.Application.csproj"
+              },
               "/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Domain/CompanyEmployees.Domain.csproj": {
                 "projectPath": "/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Domain/CompanyEmployees.Domain.csproj"
               }

@@ -1003,6 +1003,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "CompanyEmployees.Application": "1.0.0",
           "CompanyEmployees.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "NLog.Extensions.Logging": "6.1.0",
