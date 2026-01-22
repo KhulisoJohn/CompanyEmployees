@@ -16,3 +16,5 @@
 /home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/obj/Debug/net9.0/ref/CompanyEmployees.Infrastructure.dll
 /home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/bin/Debug/net9.0/CompanyEmployees.Infrastructure.runtimeconfig.json
 /home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/obj/Debug/net9.0/CompanyEmployees.Infrastructure.genruntimeconfig.cache
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/bin/Debug/net9.0/CompanyEmployees.Application.dll
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Infrastructure/bin/Debug/net9.0/CompanyEmployees.Application.pdb

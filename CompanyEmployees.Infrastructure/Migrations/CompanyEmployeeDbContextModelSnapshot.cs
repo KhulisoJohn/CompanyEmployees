@@ -62,6 +62,13 @@ namespace CompanyEmployees.Infrastructure.Migrations
                             Address = "456 Enterprise Ave",
                             Country = "UK",
                             Name = "Global Enterprises"
+                        },
+                        new
+                        {
+                            Id = new Guid("d5e6f7a8-9b0c-1d2e-3f4a-5b6c7d8e9f0a"),
+                            Address = "789 Tech Park",
+                            Country = "Canada",
+                            Name = "Innovatech"
                         });
                 });
 

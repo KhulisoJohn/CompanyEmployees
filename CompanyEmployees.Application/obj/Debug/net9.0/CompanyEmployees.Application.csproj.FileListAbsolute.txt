@@ -1,0 +1,16 @@
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/bin/Debug/net9.0/CompanyEmployees.Application.deps.json
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/bin/Debug/net9.0/CompanyEmployees.Application.dll
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/bin/Debug/net9.0/CompanyEmployees.Application.pdb
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/bin/Debug/net9.0/CompanyEmployees.Domain.dll
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/bin/Debug/net9.0/CompanyEmployees.Domain.pdb
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/obj/Debug/net9.0/CompanyEmployees.Application.csproj.AssemblyReference.cache
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/obj/Debug/net9.0/CompanyEmployees.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/obj/Debug/net9.0/CompanyEmployees.Application.AssemblyInfoInputs.cache
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/obj/Debug/net9.0/CompanyEmployees.Application.AssemblyInfo.cs
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/obj/Debug/net9.0/CompanyEmployees.Application.csproj.CoreCompileInputs.cache
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/obj/Debug/net9.0/CompanyEmployees.Application.sourcelink.json
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/obj/Debug/net9.0/CompanyE.B7FD679E.Up2Date
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/obj/Debug/net9.0/CompanyEmployees.Application.dll
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/obj/Debug/net9.0/refint/CompanyEmployees.Application.dll
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/obj/Debug/net9.0/CompanyEmployees.Application.pdb
+/home/khulysojohn/Development/CompanyEmployees/CompanyEmployees.Application/obj/Debug/net9.0/ref/CompanyEmployees.Application.dll

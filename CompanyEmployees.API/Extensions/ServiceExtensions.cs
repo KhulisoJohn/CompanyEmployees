@@ -28,17 +28,17 @@ public static class ServiceExtensions
             
         });
 
-    
-     public static IServiceCollection AddInfrastructure(this IServiceCollection services, string connectionString)
+    public static IServiceCollection AddInfrastructure(
+    this IServiceCollection services,
+    IConfiguration configuration)
         {
-            // Configure EF Core PostgreSQL
-            services.AddDbContext<CompanyEmployeeDbContext>(options =>
-                options.UseNpgsql(connectionString));
-            //add logger service 
-            services.AddSingleton<ILoggerManager, LoggerManager>();
+    services.AddDbContext<CompanyEmployeeDbContext>(options =>
+        options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
 
-            return services;
-        }
+    services.AddSingleton<ILoggerManager, LoggerManager>();
+
+    return services;
+}
 
     public static void ConfigureRepositoryManager(this IServiceCollection services)
     {

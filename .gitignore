@@ -10,3 +10,6 @@
 
 # User secrets
 secrets.json
+
+# supabase connection
+.env

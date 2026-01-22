@@ -2,6 +2,8 @@ using CompanyEmployees.API.Extensions;
 using Microsoft.AspNetCore.HttpOverrides;
 using NLog;
 
+DotNetEnv.Env.Load("../.env");
+
 var builder = WebApplication.CreateBuilder(args);
 
 Console.WriteLine($"Environment: {builder.Environment.EnvironmentName}");
@@ -9,11 +11,7 @@ Console.WriteLine($"Connection String: {builder.Configuration.GetConnectionStrin
 
 builder.Services.ConfigureCors();
 builder.Services.ConfigureIISIntegration();
-//builder.Services.ConfigureLoggerService();
-builder.Services.AddInfrastructure(
-    builder.Configuration.GetConnectionString("DefaultConnection")!
-    
-); 
+builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureRepositoryManager(); 
 builder.Services.AddControllers();
