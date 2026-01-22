@@ -22,6 +22,13 @@ public class CompanyConfiguration : IEntityTypeConfiguration<Company>
             Name = "Global Enterprises",
             Address = "456 Enterprise Ave",
             Country = "UK"
+        },
+        new Company
+        {
+            Id = Guid.Parse("d5e6f7a8-9b0c-1d2e-3f4a-5b6c7d8e9f0a"),
+            Name = "Innovatech",
+            Address = "789 Tech Park",
+            Country = "Canada"
         }
     );
 
