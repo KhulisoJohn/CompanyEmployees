@@ -28,17 +28,21 @@ public static class ServiceExtensions
             
         });
 
-    public static IServiceCollection AddInfrastructure(
+   public static IServiceCollection AddInfrastructure(
     this IServiceCollection services,
-    IConfiguration configuration)
-        {
+    string connectionString)
+{
+    if (string.IsNullOrWhiteSpace(connectionString))
+        throw new Exception("Database connection string not configured.");
+
     services.AddDbContext<CompanyEmployeeDbContext>(options =>
-        options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
+        options.UseNpgsql(connectionString));
 
     services.AddSingleton<ILoggerManager, LoggerManager>();
-
     return services;
 }
+
+
 
     public static void ConfigureRepositoryManager(this IServiceCollection services)
     {

@@ -11,4 +11,9 @@ public class CompanyRepository : RepositoryBase<Company>, ICompanyRepository
         : base(companyEmployeeDbContext)
     {
     }
+
+    public IEnumerable<Company> GetAllCompanies(bool trackChanges) =>
+        FindAll(trackChanges)
+            .OrderBy(c => c.Name)
+            .ToList();
 }
