@@ -2,29 +2,42 @@ using CurriculumReviewSystem.Infrastructure.Persistance;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using DotNetEnv;
+using System;
+using System.IO;
 using CompanyEmployees.Infrastructure.Persistence;
 
 namespace CurriculumReviewSystem.Infrastructure.Persistance
 {
-    // This is the design-time factory EF Core CLI uses
+    // Design-time factory for EF Core CLI
     public class CompanyEmployeeDbContextFactory : IDesignTimeDbContextFactory<CompanyEmployeeDbContext>
     {
         public CompanyEmployeeDbContext CreateDbContext(string[] args)
         {
-            // Load environment variables from .env file
-             Env.Load("../.env"); // Requires DotNetEnv package in Infrastructure
+            // Determine the absolute path to the API project's root folder
+            // Adjust this relative to your solution structure
+            var apiRoot = Path.Combine(Directory.GetCurrentDirectory(), "..", "..", "..", "CompanyEmployees.API");
+            var envFile = Path.Combine(apiRoot, ".env");
 
-            var optionsBuilder = new DbContextOptionsBuilder<CompanyEmployeeDbContext>();
+            // Load the .env file safely
+            if (File.Exists(envFile))
+            {
+                Env.Load(envFile);
+                Console.WriteLine($".env loaded from: {envFile}");
+            }
+            else
+            {
+                Console.WriteLine($"Warning: .env file not found at {envFile}. Make sure SUPABASE_CONNECTION_STRING is set in the environment.");
+            }
 
-            // Read the Supabase connection string from the env
+            // Get the connection string from environment variable
             var connectionString = Environment.GetEnvironmentVariable("SUPABASE_CONNECTION_STRING")
-                                   ?? throw new InvalidOperationException("Connection string not found in environment");
+                                   ?? throw new InvalidOperationException("SUPABASE_CONNECTION_STRING not found in environment.");
 
-            // Configure EF Core to use PostgreSQL
+            // Build DbContext options
+            var optionsBuilder = new DbContextOptionsBuilder<CompanyEmployeeDbContext>();
             optionsBuilder.UseNpgsql(connectionString);
 
             return new CompanyEmployeeDbContext(optionsBuilder.Options);
         }
     }
 }
-

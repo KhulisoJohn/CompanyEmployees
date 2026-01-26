@@ -2,16 +2,19 @@ using CompanyEmployees.API.Extensions;
 using Microsoft.AspNetCore.HttpOverrides;
 using NLog;
 
-DotNetEnv.Env.Load("../.env");
+DotNetEnv.Env.Load();
 
 var builder = WebApplication.CreateBuilder(args);
 
-Console.WriteLine($"Environment: {builder.Environment.EnvironmentName}");
-Console.WriteLine($"Connection String: {builder.Configuration.GetConnectionString("DefaultConnection")}");
+var connectionString = Environment.GetEnvironmentVariable("SUPABASE_CONNECTION_STRING")
+                       ?? throw new Exception("SUPABASE_CONNECTION_STRING not set");
+
+Console.WriteLine($"Connection String: {Environment.GetEnvironmentVariable("SUPABASE_CONNECTION_STRING")}");
+
 
 builder.Services.ConfigureCors();
 builder.Services.ConfigureIISIntegration();
-builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddInfrastructure(connectionString);
 builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureRepositoryManager(); 
 builder.Services.AddControllers();
